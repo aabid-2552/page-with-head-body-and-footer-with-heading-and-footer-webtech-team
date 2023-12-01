@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Timer Page</title>
+</head>
+<body>
+<div style="float: left;">
+<h1>Timer:</h1>
+
+<p id="timer">00:00:00</p>
+</div>
+
+<script>
+function updateTimer() {
+
+const timerElement = document.getElementById("timer");
+
+let hours = 0, minutes = 0, seconds = 0;
+setInterval(function() {
+seconds++;
+if (minutes === 60) { ... }
+const formattedTime = ...;
+timerElement.textContent = formattedTime;
+updateTimer();
+</script>
+
+</body>
+
+</html>
